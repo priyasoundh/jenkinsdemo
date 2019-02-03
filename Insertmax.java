@@ -27,7 +27,7 @@ class Insertmax
 	                l=a[j];
 	            }
 	        }
-	        System.out.println(l);
+	        System.out.println(l+" ");
 	    }
 	}
 }
