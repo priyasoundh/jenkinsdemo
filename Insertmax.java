@@ -1,5 +1,5 @@
 import java.util.*;
-public class Insertmax
+class Insertmax
 {
 	public static void main(String[] args)
 	{
