@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-class Second_small
+public class Second_small
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
