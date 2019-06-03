@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-class String_Compare_cis
+public class String_Compare_cis
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
