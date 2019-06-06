@@ -12,6 +12,7 @@ public class Rep_num
 		{
 			a[i]=sc.nextInt();
 		}
+		int b=0;
 		for(int i=0;i<n;i++)
 		{
 			int count=0;
@@ -29,6 +30,7 @@ public class Rep_num
 			if(count==0)
 			{
 				a[i]=-1;
+				b++;
 			}
 		}
 		int temp;
@@ -47,6 +49,10 @@ public class Rep_num
 			{
 				System.out.print(a[i]+" ");
 			}
+		}
+		if(b==n)
+		{
+			System.out.print("unique");
 		}
 	}
 }
