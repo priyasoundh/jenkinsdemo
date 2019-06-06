@@ -12,7 +12,14 @@ public class Rev_str
 		int n=s.length();
 		for(int i=n-1;i>=0;i--)
 		{
-			System.out.print(ch[i]+"-");
+			if(i==0)
+			{
+				System.out.print(ch[i]);
+			}
+			else
+			{
+				System.out.print(ch[i]+"-");
+			}
 		}
 	}
 }
