@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-public class Repeated_count
+class Repeated_count
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
@@ -20,8 +20,11 @@ public class Repeated_count
 			{
 				if(a[i]==a[j])
 				{
-					
 					count++;
+				}
+				else
+				{
+					j=n;
 				}
 			}
 			if(count>b)
