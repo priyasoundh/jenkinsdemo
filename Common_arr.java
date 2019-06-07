@@ -39,11 +39,8 @@ public class Common_arr
 				if(a[i]==b[j])
 				{
 					b[j]=-1;
-					count++;
-					if(count==1)
-					{
-						System.out.print(a[i]+" ");
-					}
+					System.out.print(a[i]+" ");
+					j=n;
 				}
 			}
 		}
