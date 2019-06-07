@@ -36,9 +36,9 @@ public class Common_arr
 			int count=0;
 			for(int j=0;j<m;j++)
 			{
-				if(a[i]==b[j]&&i!=j&&a[i]!=-1)
+				if(a[i]==b[j])
 				{
-					a[j]=-1;
+					b[j]=-1;
 					count++;
 					if(count==1)
 					{
