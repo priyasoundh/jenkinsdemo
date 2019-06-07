@@ -17,16 +17,19 @@ public class Sentence_rev
 		}
 		int n=i;
 		System.out.print(a[0]+" ");
-		for(i=1;i<n-1;i++)
+		if(i>1)
 		{
-			char ch[]=a[i].toCharArray();
-			int m=a[i].length();
-			for(int j=m-1;j>=0;j--)
+			for(i=1;i<n-1;i++)
 			{
-				System.out.print(ch[j]);
+				char ch[]=a[i].toCharArray();
+				int m=a[i].length();
+				for(int j=m-1;j>=0;j--)
+				{
+					System.out.print(ch[j]);
+				}
+				System.out.print(" ");
 			}
-			System.out.print(" ");
+			System.out.print(a[n-1]+" ");
 		}
-		System.out.print(a[n-1]+" ");
 	}
 }
