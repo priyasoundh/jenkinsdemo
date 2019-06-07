@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-class Repeating_count
+public class Repeating_count
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
